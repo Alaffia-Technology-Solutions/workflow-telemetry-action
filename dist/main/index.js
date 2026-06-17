@@ -1,5 +1,4 @@
-require('./sourcemap-register.js');import { createRequire as __WEBPACK_EXTERNAL_createRequire } from "module";
-/******/ (() => { // webpackBootstrap
+require('./sourcemap-register.js');/******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ 7351:
@@ -46613,7 +46612,7 @@ module.exports = eval("require")("osx-temperature-sensor");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("assert");
+module.exports = require("assert");
 
 /***/ }),
 
@@ -46621,7 +46620,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("assert");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("async_hooks");
+module.exports = require("async_hooks");
 
 /***/ }),
 
@@ -46629,7 +46628,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("async_hooks"
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("buffer");
+module.exports = require("buffer");
 
 /***/ }),
 
@@ -46637,7 +46636,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("buffer");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("child_process");
+module.exports = require("child_process");
 
 /***/ }),
 
@@ -46645,7 +46644,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("child_proces
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("console");
+module.exports = require("console");
 
 /***/ }),
 
@@ -46653,7 +46652,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("console");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("crypto");
+module.exports = require("crypto");
 
 /***/ }),
 
@@ -46661,7 +46660,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("crypto");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("diagnostics_channel");
+module.exports = require("diagnostics_channel");
 
 /***/ }),
 
@@ -46669,7 +46668,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("diagnostics_
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("events");
+module.exports = require("events");
 
 /***/ }),
 
@@ -46677,7 +46676,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("events");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("fs");
+module.exports = require("fs");
 
 /***/ }),
 
@@ -46685,7 +46684,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("fs");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http");
+module.exports = require("http");
 
 /***/ }),
 
@@ -46693,7 +46692,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http2");
+module.exports = require("http2");
 
 /***/ }),
 
@@ -46701,7 +46700,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("http2");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("https");
+module.exports = require("https");
 
 /***/ }),
 
@@ -46709,7 +46708,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("https");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("net");
+module.exports = require("net");
 
 /***/ }),
 
@@ -46717,7 +46716,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("net");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:events");
+module.exports = require("node:events");
 
 /***/ }),
 
@@ -46725,7 +46724,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:events"
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:stream");
+module.exports = require("node:stream");
 
 /***/ }),
 
@@ -46733,7 +46732,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:stream"
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:util");
+module.exports = require("node:util");
 
 /***/ }),
 
@@ -46741,7 +46740,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("node:util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("os");
+module.exports = require("os");
 
 /***/ }),
 
@@ -46749,7 +46748,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("os");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("path");
+module.exports = require("path");
 
 /***/ }),
 
@@ -46757,7 +46756,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("path");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("perf_hooks");
+module.exports = require("perf_hooks");
 
 /***/ }),
 
@@ -46765,7 +46764,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("perf_hooks")
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("querystring");
+module.exports = require("querystring");
 
 /***/ }),
 
@@ -46773,7 +46772,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("querystring"
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("readline");
+module.exports = require("readline");
 
 /***/ }),
 
@@ -46781,7 +46780,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("readline");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream");
+module.exports = require("stream");
 
 /***/ }),
 
@@ -46789,7 +46788,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream/web");
+module.exports = require("stream/web");
 
 /***/ }),
 
@@ -46797,7 +46796,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("stream/web")
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("string_decoder");
+module.exports = require("string_decoder");
 
 /***/ }),
 
@@ -46805,7 +46804,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("string_decod
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tls");
+module.exports = require("tls");
 
 /***/ }),
 
@@ -46813,7 +46812,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tls");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tty");
+module.exports = require("tty");
 
 /***/ }),
 
@@ -46821,7 +46820,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("tty");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("url");
+module.exports = require("url");
 
 /***/ }),
 
@@ -46829,7 +46828,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("url");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util");
+module.exports = require("util");
 
 /***/ }),
 
@@ -46837,7 +46836,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util");
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util/types");
+module.exports = require("util/types");
 
 /***/ }),
 
@@ -46845,7 +46844,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("util/types")
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("worker_threads");
+module.exports = require("worker_threads");
 
 /***/ }),
 
@@ -46853,7 +46852,7 @@ module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("worker_threa
 /***/ ((module) => {
 
 "use strict";
-module.exports = __WEBPACK_EXTERNAL_createRequire(import.meta.url)("zlib");
+module.exports = require("zlib");
 
 /***/ }),
 
