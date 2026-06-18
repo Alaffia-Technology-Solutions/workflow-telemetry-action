@@ -1,24 +1,25 @@
 # workflow-telemetry-action
 
-A GitHub Action to track and monitor the 
-- workflow runs, jobs and steps
-- resource metrics 
-- and process activities 
-of your GitHub Action workflow runs. 
-If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results 
-and/or publishes the results to the job summary. 
+A GitHub Action to track and monitor workflow runs, jobs, and steps. This is a
+fork of the currently unmaintained [workflow-telemetry-action](https://github.com/catchpoint/workflow-telemetry-action)
+with community and additional fixes. This fork is minimally maintained by the
+contributors at Alaffia Health.
+
+---
 
 The action traces the jobs' step executions and shows them in trace chart,
 
 And collects the following metrics:
+
 - CPU Load (user and system) in percentage
 - Memory usage (used and free) in MB
 - Network I/O (read and write) in MB
 - Disk I/O (read and write) in MB
 
-And traces the process executions (only supported on `Ubuntu`) 
+And traces the process executions (only supported on `Ubuntu`)
 
 as trace chart with the following information:
+
 - Name
 - Start time
 - Duration (in ms)
@@ -26,6 +27,7 @@ as trace chart with the following information:
 - Exit status as success or fail (highlighted as red)
 
 and as trace table with the following information:
+
 - Name
 - Id
 - Parent id
